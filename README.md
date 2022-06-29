@@ -67,7 +67,7 @@ python3 api_final_yatube/manage.py runserver
 
 - #### Получить список всех публикаций. При указании параметров limit и offset выдача работает с пагинацией
 
-```text
+```bash
 /api/v1/posts/                              метод GET
 ```
 
@@ -93,7 +93,7 @@ python3 api_final_yatube/manage.py runserver
 
 - #### Получение комментариев
 
-```text
+```bash
 /api/v1/posts/{post_id}/comments/           метод GET
 ```
 
